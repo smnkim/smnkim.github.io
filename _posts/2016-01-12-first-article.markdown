@@ -4,7 +4,7 @@ title: "first-article"
 subtitle: "jekyll first contents"
 date: 2016-01-12 18:32:00
 author: "smnkim"
-header-img: "img/post-bg-06.jpg"
+header-img: "img/smnkim.jpg"
 ---
 
 # MAC OS에서 *Jekyll* 설치하기
