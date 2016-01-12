@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "첫 게시물"
+title: "first-article"
 subtitle: "jekyll first contents"
-date: 2016-01-01 10:21:00
-author: "violetkjs"
+date: 2016-01-12 18:32:00
+author: "smnkim"
 header-img: "img/post-bg-06.jpg"
 ---
 
