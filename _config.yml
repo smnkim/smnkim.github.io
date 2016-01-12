@@ -1,10 +1,10 @@
 # Site settings
 title:  smnkim
 header-img: img/smnkim.jpg
-email: your-email@yourdomain.com
+email: saemina.kim@nhnent.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://smnkim.github.io"
 github_username:  smnkim
 facebook_username: kimseamina
 comments: yes
