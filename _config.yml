@@ -1,0 +1,18 @@
+# Site settings
+title:  babo smnkim
+header-img: img/home-bg.jpg
+email: your-email@yourdomain.com
+description: "Write your site description here. It will be used as your sites meta description as well!"
+baseurl: ""
+url: "http://yourdomain.com"
+github_username:  smnkim
+facebook_username: kimseamina
+comments: yes
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+gems: [jekyll-paginate]
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]

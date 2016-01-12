@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>babo smnkim</title>
+    <description>Write your site description here. It will be used as your sites meta description as well!</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 12 Jan 2016 09:24:34 +0000</pubDate>
+    <lastBuildDate>Tue, 12 Jan 2016 09:24:34 +0000</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>첫 게시물</title>
+        <description>&lt;h1 id=&quot;mac-os-jekyll-&quot;&gt;MAC OS에서 &lt;em&gt;Jekyll&lt;/em&gt; 설치하기&lt;/h1&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;설치&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;$ xcode-select --install
+$ \curl -sSL [https://get.rvm.io](https://get.rvm.io,&quot;루비받기&quot;) | bash -s stable
+$ source ~/.rvm/scripts/rvm
+$ rvm install 2.2.0
+$ gem install jekyll // 안되면 sudo gem install -n /usr/local/bin jekyll
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;지킬 프로젝트 설치&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;$ jekyll new 깃사용자명.github.io
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;로컬 확인&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;$ jekyll serve
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;깃 저장소와의 연동&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;$ git init
+$ git remote add origin 저장소 URL
+$ git add .
+$ git commit -m &quot;commit comment&quot;
+$ git push origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;변경 후에 적용&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;$ git add . -A &amp;amp;&amp;amp; git commit -m &quot;commit comment&quot;
+$ git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;section-5&quot;&gt;추천 사이트&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllrb-ko.github.io/&quot;&gt;지킬 한글 문서&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vjinn.github.io/about/&quot;&gt;지킬 초보용 블로그&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://webberstudy.com&quot;&gt;프론트엔드&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 01 Jan 2016 10:21:00 +0000</pubDate>
+        <link>http://yourdomain.com/2016/01/01/first-article/</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/01/01/first-article/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
