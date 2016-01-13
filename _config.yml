@@ -1,8 +1,8 @@
 # Site settings
-title:  개발자 샘둥이의 블로그
+title:  샘둥이의 블로그
 header-img: img/smnkim.jpg
 email: saemina.kim@nhnent.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+description: ""
 baseurl: ""
 url: "http://smnkim.github.io"
 github_username:  smnkim
