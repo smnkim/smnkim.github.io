@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "루키행복TF 김새미나입니다."
-subtitle: "9주간의 기술교육 Start!!!!"
+title: "9주간의 기술교육 Start!!!!"
+subtitle: "기술교육 1주차"
 date: 2016-01-12 18:32:00
 author: "smnkim"
 header-img: "img/smnkim.jpg"
