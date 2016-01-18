@@ -68,17 +68,13 @@ Snapshot 같은 경우, 변경된 파일의 새로운 오브젝트를 가지고 
 
 ----
 
+새로 생성, 혹은 변경한 파일들은 Working directory에 보관되며 add명령을 하게 되면, Index라는 git의 중간 영역에 Staging된다.
 
+add를 하고나서, add한 파일을 다시 수정 할 경우, 수정한 파일은 Working directory에 보관되며 추가로 add명령을 해야 수정된 파일이 Index영역에 보관된다.
 
-----
+commit명령을 하게 되면 Index영역에 Staging된 오브젝트 파일이 Local Repository에 보관된다.
 
-<br><br><br>
-
-## blob, tree, commit
-
-----
-
-
+push명령을 통해 Server Repository에 비로소 적용이 된다.
 
 ----
 
