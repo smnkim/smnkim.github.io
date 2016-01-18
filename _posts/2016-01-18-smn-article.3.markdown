@@ -46,12 +46,42 @@ Snapshot 같은 경우, 변경된 파일의 새로운 오브젝트를 가지고 
 
 ----
 
-- git config --global
+- git config [--global]
+    - 사용자 정보를 설정하는 단계
+    - 글로벌 속성을 사용 할 경우, 홈 디렉토리에 .gitconfig가 저장되느냐, 개인 저장소에 저장되느냐의 차이가 있다.
+    - 보통 프로젝트 단위로 진행 할 경우에는 개인 저장소에 config하는 것이 맞다.
+    - config를 설정 한 후에, 보통 .gitignore파일에서 컴파일에 의해 자동으로 생성되는 파일에 대해 추적하지 않겠다는 것을 함께 설정해준다.
 - git init
+    - 프로젝트가 처음 시작될때 사용하는 명령어
 - git clone
+    - 기존에 있던 프로젝트를 가져올때 사용하는 명령어
 - tree
+    - tree .git을 할 경우, .git에 있는 디렉토리 구조를 볼 수 있다.
 - add
 - commit
 - etc.
 
 ----
+
+<br><br><br>
+
+## Working directory, Index, Repository
+
+----
+
+
+
+----
+
+<br><br><br>
+
+## blob, tree, commit
+
+----
+
+
+
+----
+
+
+#### 2부에서는 Remores와 Brance, Merge, Rebase, Git Flow에 대해 정리할 예정
