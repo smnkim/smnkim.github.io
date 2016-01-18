@@ -22,9 +22,6 @@ header-img: "img/smnkim.jpg"
 
 git은 SHA-1 40Byte HASH코드를 사용하는데, 파일의 내용을 바탕으로 Key가 생성된다.
 
-
-
-
 ----         
 
 <br><br><br>
@@ -32,11 +29,13 @@ git은 SHA-1 40Byte HASH코드를 사용하는데, 파일의 내용을 바탕으
 ## Patch vs Snapshot
 
 ----
+
 svn같은 경우, 버전 관리를 Patch를 통해서 진행한다.
 개발기간이 길어질수록 Pacth에 대한 모든 기록을 불러와야 하기 떄문에 속도가 느려지는 단점이 있다.
 
 <br>
 Snapshot 같은 경우, 변경된 파일의 새로운 오브젝트를 가지고 있고 변경되지 않은 파일은 레퍼런스를 통해 주소값을 참조한다.
+
 ----
 
 
@@ -84,4 +83,4 @@ Snapshot 같은 경우, 변경된 파일의 새로운 오브젝트를 가지고 
 ----
 
 
-#### 2부에서는 Remores와 Brance, Merge, Rebase, Git Flow에 대해 정리할 예정
+### 2부에서는 Remores와 Brance, Merge, Rebase, Git Flow에 대해 정리할 예정
