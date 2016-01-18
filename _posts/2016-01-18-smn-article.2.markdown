@@ -15,11 +15,11 @@ header-img: "img/smnkim.jpg"
 
 ----        
 
+<br><br><br>
+
 ## 인증과정
 
 ----
-
-__   __
 
 ----
 
