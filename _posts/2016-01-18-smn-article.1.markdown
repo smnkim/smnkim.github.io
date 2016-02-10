@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "프로젝트를 들어가며"
+title: "프로젝트에 들어가며"
 subtitle: ""
 date: 2016-01-18 09:23:00
 author: "smnkim"
@@ -9,7 +9,7 @@ header-img: "img/smnkim.jpg"
 
 
 
-## 개성보다 더욱 매력적인 절제미
+## 프로젝트를 들어가며
 
 ----
 
