@@ -62,15 +62,15 @@ Merge한 코드에는 내가 미처 아직 지우지 못했던 주석코드 들�
 
 코드 정적 분석기의 분석 리포트를 토대로 코드를 개선하는 나머지 작업을 맡았다.
 
-그 중에, Twitter와 Facebook의 OAuth를 인증 받는 과정에서 Connection을 사용하고 disconnetion을 하지 않아서 경고를 하는 메세지가 있었고,
+그 중에, Twitter와 Facebook의 OAuth를 인증 받는 과정에서 Connection을 사용하고 disconnection을 하지 않아서 경고를 하는 메세지가 있었고,
 
-해당 클래스로 가서 disconnetion을 해주는 코드 한줄을 추가해주었다.
+해당 클래스로 가서 disconnection을 해주는 코드 한줄을 추가해주었다.
 
 그리곤 결과가 너무 예측 가능한 코드라고 쉽게 생각하고 테스트를 해보지도 않고 코드를 Merge해버렸다.
 
-일이 터졌다. 팀원은 내가 머지해버린 코드를 Full받아서 실행시켜보니 로그인이 안되고 NullponiterExpcetion이 발생하였다.
+일이 터졌다. 팀원은 내가 머지해버린 코드를 Full받아서 실행시켜보니 로그인이 안되고 NullPointerException이 발생하였다.
 
-전까지 잘만 동작하던 로그인이 안되니 오빠는 디버깅을 하였고, 결국엔 disconnection위치를 잘 못 지정해서 계속 NullponiterExpcetion이 발생했다는 사실을 알게 되었다.
+전까지 잘만 동작하던 로그인이 안되니 오빠는 디버깅을 하였고, 결국엔 disconnection위치를 잘 못 지정해서 계속 NullPointerException이 발생했다는 사실을 알게 되었다.
 
 그 원인을 찾기 위해 시간을 허비 하게 했다. 너무 미안했다.
 
