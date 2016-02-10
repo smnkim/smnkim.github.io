@@ -13,7 +13,7 @@ header-img: "img/smnkim.jpg"
 
 ----
 
-
+OAuth는 인증인가 허가인가
 
 ----         
 
@@ -25,3 +25,4 @@ header-img: "img/smnkim.jpg"
 
 ----
 
++ curl 명령어
