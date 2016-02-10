@@ -28,9 +28,9 @@ header-img: "img/smnkim.jpg"
 
     자바코드 |자바코드 | XML
     ----------|----------|-----------
-    빈 설정 파일|@Configuration     | <beans>
-    빈의 이름|@Bean methodName()     | <bean id="methodName"
-    빈의 클래스|return new BeanClass();    | class="a.b.c...BeamClass">
+    빈 설정 파일|@Configuration| <beans>
+    빈의 이름|@Bean methodName()| <bean id="methodName"
+    빈의 클래스|return new BeanClass();| class="a.b.c...BeamClass">
 
 + property 태크의 ref와 value의 차이점
 	+ ref : 주입할 오브젝트를 정의한 빈의 ID를 입력한다.
